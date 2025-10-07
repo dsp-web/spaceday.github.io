@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Events & Activities — World Space Week</title>
+  <meta name="description" content="Ideas and templates for World Space Week events: classroom projects, exhibits, stargazing, hackathons, challenges." />
+  
+  <style>
+    /* Base */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #001f4d; /* Navy blue */
+      color: #e0e0ff;
+    }
+    a { text-decoration: none; transition: 0.2s; }
+    a:hover { opacity: 0.8; }
+
+    /* Header / nav */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0,0,50,0.8);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    nav ul { display: flex; list-style: none; gap: 20px; margin:0; padding:0; }
+    nav a {
+      color: #00f0ff;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: rgba(0,240,255,0.05);
+    }
+    nav a:hover { background: rgba(0,240,255,0.2); color: #ffffff; }
+    nav a[aria-current="page"] { background: rgba(0,240,255,0.3); }
+
+    /* Main content */
+    main { padding: 40px; max-width: 1000px; margin: auto; }
+    section, h1 { 
+      background: rgba(0,0,50,0.5); 
+      padding: 30px; 
+      margin-bottom: 20px; 
+      border-radius: 16px; 
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 32px;
+      color: #00f0ff;
+      text-shadow: 0 0 10px rgba(0,240,255,0.5);
+      margin-bottom: 20px;
+    }
+    h2 { font-size: 28px; color: #00f0ff; text-shadow: 0 0 10px rgba(0,240,255,0.5); margin-bottom: 12px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,50,0.8);
+      color: #a0c4ff;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 -4px 12px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main" style="position:absolute;left:-9999px;">Skip to content</a>
+
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="theme.html">Theme</a></li>
+        <li><a href="events.html" aria-current="page">Events</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" role="main" aria-labelledby="events-heading">
+    <h1 id="events-heading">Events & Activities</h1>
+
+    <section aria-labelledby="schools">
+      <h2 id="schools">School & Classroom Ideas</h2>
+      <ul>
+        <li>Design challenge: teams design a habitat and present architecture, mass budgets, and resource flows.</li>
+        <li>Rocket-building: teach basics of propulsion and aerodynamics using safe model rockets or water rockets.</li>
+        <li>Satellite tracker workshop: introduce how satellites orbit and how to track passes using free tools.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="public">
+      <h2 id="public">Public events & exhibits</h2>
+      <ul>
+        <li>Stargazing nights in parks or at observatories with guided tours of the sky.</li>
+        <li>Public talks: host researchers, engineers, or a remote astronaut Q&A.</li>
+        <li>Interactive exhibits: life-support demos, VR experiences of space habitats, and model displays.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="online">
+      <h2 id="online">Online & community events</h2>
+      <ul>
+        <li>Virtual hackathons focusing on climate monitoring, satellite-data analysis, or resource-optimization.</li>
+        <li>Photo and art contests with space-themed categories.</li>
+        <li>Live-streamed panel discussions between international participants.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="howto">
+      <h2 id="howto">How to organize & register</h2>
+      <p>Register your event with the World Space Week Association (link on the Resources page). Prepare an event brief (audience, goals, materials, safety notes), promote via social media, and partner with local schools, museums or clubs.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Tip: keep events accessible and inclusive — provide captions for virtual talks and ADA-friendly venues for in-person gatherings.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

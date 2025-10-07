@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — World Space Week 2025</title>
+  <meta name="description" content="History and purpose of World Space Week — why it's observed and its global reach." />
+  
+  <style>
+    /* Base */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #001f4d; /* Navy blue */
+      color: #e0e0ff;
+    }
+    a { text-decoration: none; transition: 0.2s; }
+    a:hover { opacity: 0.8; }
+
+    /* Header / nav */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0,0,50,0.8);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    nav ul { display: flex; list-style: none; gap: 20px; margin:0; padding:0; }
+    nav a {
+      color: #00f0ff;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: rgba(0,240,255,0.05);
+    }
+    nav a:hover { background: rgba(0,240,255,0.2); color: #ffffff; }
+    nav a[aria-current="page"] { background: rgba(0,240,255,0.3); }
+
+    /* Site title */
+    .site-identity h1 {
+      font-size: 28px;
+      background: linear-gradient(90deg,#ff4da6,#00f0ff);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    /* Main content */
+    main { padding: 40px; max-width: 1000px; margin: auto; }
+    section, article, aside { 
+      background: rgba(0,0,50,0.5); 
+      padding: 30px; 
+      margin-bottom: 20px; 
+      border-radius: 16px; 
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+    h2, h3 { color: #00f0ff; text-shadow: 0 0 10px rgba(0,240,255,0.5); }
+    h2 { font-size: 32px; margin-bottom: 12px; }
+    h3 { font-size: 24px; margin-bottom: 10px; }
+
+    /* Lists */
+    ul, ol { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,50,0.8);
+      color: #a0c4ff;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 -4px 12px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main" style="position:absolute;left:-9999px;">Skip to content</a>
+
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="theme.html">Theme</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <div class="site-identity">
+      <h1>About World Space Week</h1>
+    </div>
+  </header>
+
+  <main id="main" role="main" aria-labelledby="about-heading">
+    <article>
+      <h2 id="about-heading">Origins & Dates</h2>
+      <p>World Space Week was declared by the United Nations General Assembly in 1999. The week is held every year from <strong>October 4 to October 10</strong> to commemorate the launch of the first artificial Earth satellite, Sputnik 1 (October 4, 1957), and the entry into force of the Outer Space Treaty (October 10, 1967).</p>
+
+      <h3>Purpose</h3>
+      <p>The main goals are to:</p>
+      <ul>
+        <li>Promote international cooperation in space outreach and education.</li>
+        <li>Inspire students and the public about space sciences and space technology.</li>
+        <li>Highlight the benefits of space services to society (e.g., Earth observation, communications, navigation).</li>
+      </ul>
+
+      <h3>Coordination</h3>
+      <p>The World Space Week Association (WSWA) coordinates events worldwide with support from the United Nations Office for Outer Space Affairs (UNOOSA).</p>
+
+      <h3>How to participate</h3>
+      <p>Organizers register events on the World Space Week website. Typical participants: schools, universities, museums, space agencies, NGOs, and amateur astronomy clubs.</p>
+    </article>
+
+    <aside aria-labelledby="timeline-heading">
+      <h3 id="timeline-heading">Key Milestones</h3>
+      <ol>
+        <li><strong>1957</strong> — Sputnik 1 launch (first artificial satellite).</li>
+        <li><strong>1961</strong> — Yuri Gagarin becomes the first human in space.</li>
+        <li><strong>1969</strong> — Apollo 11 Moon landing.</li>
+        <li><strong>1967</strong> — Outer Space Treaty enters into force.</li>
+        <li><strong>1999</strong> — UN declares World Space Week (October 4–10).</li>
+      </ol>
+    </aside>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Sources: UNOOSA, World Space Week Association, major space agencies.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

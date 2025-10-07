@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>World Space Week 2025 — Home</title>
+  <meta name="description" content="World Space Week (October 4–10). Celebrate space science, technology and the 2025 theme: Living in Space." />
+  
+  <style>
+    /* Base */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #001f4d; /* Navy blue */
+      color: #e0e0ff;
+    }
+    a { text-decoration: none; transition: 0.2s; }
+    a:hover { opacity: 0.8; }
+
+    /* Header / nav */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: rgba(0,0,50,0.8);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    nav ul { display: flex; list-style: none; gap: 20px; margin:0; padding:0; }
+    nav a {
+      color: #00f0ff;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: rgba(0,240,255,0.05);
+    }
+    nav a:hover { background: rgba(0,240,255,0.2); color: #ffffff; }
+
+    /* Site title */
+    .site-identity h1 {
+      font-size: 28px;
+      background: linear-gradient(90deg,#ff4da6,#00f0ff);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .site-identity p { margin:4px 0 0 0; font-size:14px; color:#a0c4ff; }
+
+    /* Main content */
+    main { padding: 40px; max-width: 1200px; margin: auto; }
+    section { background: rgba(0,0,50,0.5); padding: 30px; margin-bottom: 20px; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.5); }
+    h2, h3 { color: #00f0ff; text-shadow: 0 0 10px rgba(0,240,255,0.5); }
+    h2 { font-size: 36px; margin-bottom: 12px; }
+    h3 { font-size: 24px; margin-bottom: 10px; }
+
+    /* Lists */
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+
+    /* CTA button */
+    .cta {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 50px;
+      background: linear-gradient(90deg,#ff4da6,#00f0ff);
+      color: #001f4d;
+      font-weight: bold;
+      margin-top: 12px;
+      box-shadow: 0 6px 20px rgba(0,240,255,0.3);
+      transition: all 0.2s ease;
+    }
+    .cta:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(0,240,255,0.5); color: #ffffff; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,50,0.8);
+      color: #a0c4ff;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 -4px 12px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main" style="position:absolute;left:-9999px;">Skip to content</a>
+
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="theme.html">Theme</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <div class="site-identity">
+      <h1>World Space Week 2025</h1>
+      <p>October 4–10 — Theme: <strong>Living in Space</strong></p>
+    </div>
+  </header>
+
+  <main id="main" role="main" aria-labelledby="home-heading">
+    <section id="hero">
+      <h2 id="home-heading">Explore the Cosmos — World Space Week 2025</h2>
+      <p>World Space Week is the largest annual celebration of space, highlighting how space science and technology benefit life on Earth and enable our future beyond it.</p>
+      <p><a href="theme.html" class="cta">Discover this year’s theme: Living in Space</a></p>
+    </section>
+
+    <section id="overview" aria-labelledby="overview-heading">
+      <h3 id="overview-heading">What is World Space Week?</h3>
+      <p>Declared by the United Nations in 1999, World Space Week is observed every year from October 4 to October 10. The dates commemorate the launch of Sputnik 1 (4 Oct 1957) and the entry into force of the Outer Space Treaty (10 Oct 1967).</p>
+    </section>
+
+    <section id="highlights" aria-labelledby="highlights-heading">
+      <h3 id="highlights-heading">Highlights</h3>
+      <ul>
+        <li>Thousands of events in 90+ countries.</li>
+        <li>Classroom programs, public exhibits, virtual talks, and stargazing nights.</li>
+        <li>Focus on STEM education and international cooperation.</li>
+      </ul>
+    </section>
+
+    <section id="quick-links" aria-labelledby="quicklinks-heading">
+      <h3 id="quicklinks-heading">Quick links</h3>
+      <ul>
+        <li><a href="events.html">Events & Activities</a></li>
+        <li><a href="resources.html">Educational Resources</a></li>
+        <li><a href="about.html">History & Origins</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 World Space Week — By DSP Dan Ahmed for CGS School.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
